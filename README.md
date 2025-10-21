@@ -23,14 +23,8 @@ This project includes:
  Coyote-Time-GameMaker:  
 │  
 ├── README.md                     # Project description and contact
-├── /scripts                      # Code for basic movement & logic in GameMaker
-│   ├── controlsSetup.gml  
-│   ├── setOnGround.gml  
-│   └── playerMovement.gml  
-├── /objects                      # ex: Player and Walls 
-│   ├── oPlayer  
-│   └── oWall  
-└── /sprites                      # Basic player animation sprite integration for idle, walk, run, jump (Useful but optional)
+├── /scripts                      # Code for basic movement & logic in GameMaker 
+│   └── playerMovement.gml        # Includes both Create and Step event code with basic movement and smooth sprite animation integration
 
 ---
 
@@ -51,7 +45,3 @@ coyoteHangTimer = 0;              # Timer that counts down after the player leav
 ## Future Plans / Contact
 
 I'm still learning the ropes of how to make a 2D platformer myself, but feel free to reach out if you have any questions or sugguestions! I've been playing around with Unity lately so I'm hoping to one day include some useful guides for that Engine as well.
-
-
-
-  
