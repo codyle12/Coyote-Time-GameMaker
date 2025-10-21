@@ -5,6 +5,10 @@ Like I stated before, I was inspired by **Celeste**, a game known and critically
 While Celeste was devloped in the **Monogame engine**, I wanted to share how this mechanic can be implemented in **GameMaker Studio**, a popular engine for beginners, so that more developers can implement it in their own indie games.
 Even if you've never used GameMaker before, this repo includes my code that has the full implementation of Coyote Time + basic movement such as jumping, moving, the proper implementation of sprite animations, and jump buffering. Making this a good starting kit for those who want to tinker around with GameMaker to possibly make their own games in the future.
 
+![Celeste-Coyote-Time](https://github.com/user-attachments/assets/8ddb1097-0a8a-4655-b190-61c8e8f17791)
+
+Here is an example of what we'll be accomplishing in this repository from 2018's Celeste by indie studio MaddyMakesGames
+
 ---
 
 ## Overview
@@ -31,14 +35,22 @@ This project includes:
 ## Example Code (Create) 
 
 Create Event: 
+
 // Jumping
+
 grav = 0.275;                     # The higher the number means stronger gravity (or faster falling) and vice versa
+
 termVel = 4;                      # Terminal Velocity. This marks the fastest speed the player could fall (avoiding Jupiter's gravitational pull type falls)
+
 onGround = true;                  # A boolean value used to check if the player is currently on the ground. It works with the coyoteHangTimer to determine when to start counting down on the Coyote Timer for the player to use.
 
+
 //Coyote Time
+
 coyoteHangFrames = 5;             # The number of frames or steps the player can take so they can still jump after leaving or falling off an edge.
+
 coyoteHangTimer = 0;              # Timer that counts down after the player leaves the ground. When its higher than 0 the player can still jump even if midair. Grace period goes away once the timer hits 0.
+
 
 ---
 
