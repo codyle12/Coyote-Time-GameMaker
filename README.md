@@ -2,6 +2,7 @@
 
 Hello! This project demonstrates **Coyote Time** and how it works in a 2D platformer - Coyote Time is a mechanic that allows players to jump for a short grace period after dropping from a ledge. This sounds minimal, but it can really make a difference in platformers such as Celeste for creating "feel good movement"
 Like I stated before, I was inspired by **Celeste**, a game known and critically acclaimed for its tight and responsive platforming controls, and by **Peyton Burnham**, who taught me the framework of 2D platformers and helped me consider about what makes a game feel enjoyable and addicting to play.
+
 While Celeste was devloped in the **Monogame engine**, I wanted to share how this mechanic can be implemented in **GameMaker Studio**, a popular engine for beginners, so that more developers can implement it in their own indie games.
 Even if you've never used GameMaker before, this repo includes my code that has the full implementation of Coyote Time + basic movement such as jumping, moving, the proper implementation of sprite animations, and jump buffering. Making this a good starting kit for those who want to tinker around with GameMaker to possibly make their own games in the future.
 
